@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A220ED76268360DF00512A27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220ED75268360DF00512A27 /* AppDelegate.swift */; };
+		A220ED78268360DF00512A27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220ED77268360DF00512A27 /* SceneDelegate.swift */; };
+		A220ED7A268360DF00512A27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220ED79268360DF00512A27 /* ViewController.swift */; };
+		A220ED7D268360DF00512A27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A220ED7B268360DF00512A27 /* Main.storyboard */; };
+		A220ED7F268360E000512A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A220ED7E268360E000512A27 /* Assets.xcassets */; };
+		A220ED82268360E000512A27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A220ED80268360E000512A27 /* LaunchScreen.storyboard */; };
+		A220ED8D268360E000512A27 /* grampolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220ED8C268360E000512A27 /* grampolaTests.swift */; };
+		A220ED98268360E000512A27 /* grampolaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A220ED97268360E000512A27 /* grampolaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A220ED89268360E000512A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A220ED6A268360DF00512A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A220ED71268360DF00512A27;
+			remoteInfo = grampola;
+		};
+		A220ED94268360E000512A27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A220ED6A268360DF00512A27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A220ED71268360DF00512A27;
+			remoteInfo = grampola;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A220ED72268360DF00512A27 /* grampola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = grampola.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A220ED75268360DF00512A27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A220ED77268360DF00512A27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A220ED79268360DF00512A27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A220ED7C268360DF00512A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A220ED7E268360E000512A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A220ED81268360E000512A27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A220ED83268360E000512A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A220ED88268360E000512A27 /* grampolaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grampolaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A220ED8C268360E000512A27 /* grampolaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grampolaTests.swift; sourceTree = "<group>"; };
+		A220ED8E268360E000512A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A220ED93268360E000512A27 /* grampolaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = grampolaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A220ED97268360E000512A27 /* grampolaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = grampolaUITests.swift; sourceTree = "<group>"; };
+		A220ED99268360E000512A27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A220ED6F268360DF00512A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220ED85268360E000512A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220ED90268360E000512A27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A220ED69268360DF00512A27 = {
+			isa = PBXGroup;
+			children = (
+				A220ED74268360DF00512A27 /* grampola */,
+				A220ED8B268360E000512A27 /* grampolaTests */,
+				A220ED96268360E000512A27 /* grampolaUITests */,
+				A220ED73268360DF00512A27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A220ED73268360DF00512A27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A220ED72268360DF00512A27 /* grampola.app */,
+				A220ED88268360E000512A27 /* grampolaTests.xctest */,
+				A220ED93268360E000512A27 /* grampolaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A220ED74268360DF00512A27 /* grampola */ = {
+			isa = PBXGroup;
+			children = (
+				A220ED75268360DF00512A27 /* AppDelegate.swift */,
+				A220ED77268360DF00512A27 /* SceneDelegate.swift */,
+				A220ED79268360DF00512A27 /* ViewController.swift */,
+				A220ED7B268360DF00512A27 /* Main.storyboard */,
+				A220ED7E268360E000512A27 /* Assets.xcassets */,
+				A220ED80268360E000512A27 /* LaunchScreen.storyboard */,
+				A220ED83268360E000512A27 /* Info.plist */,
+			);
+			path = grampola;
+			sourceTree = "<group>";
+		};
+		A220ED8B268360E000512A27 /* grampolaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A220ED8C268360E000512A27 /* grampolaTests.swift */,
+				A220ED8E268360E000512A27 /* Info.plist */,
+			);
+			path = grampolaTests;
+			sourceTree = "<group>";
+		};
+		A220ED96268360E000512A27 /* grampolaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A220ED97268360E000512A27 /* grampolaUITests.swift */,
+				A220ED99268360E000512A27 /* Info.plist */,
+			);
+			path = grampolaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A220ED71268360DF00512A27 /* grampola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A220ED9C268360E000512A27 /* Build configuration list for PBXNativeTarget "grampola" */;
+			buildPhases = (
+				A220ED6E268360DF00512A27 /* Sources */,
+				A220ED6F268360DF00512A27 /* Frameworks */,
+				A220ED70268360DF00512A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grampola;
+			productName = grampola;
+			productReference = A220ED72268360DF00512A27 /* grampola.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A220ED87268360E000512A27 /* grampolaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A220ED9F268360E000512A27 /* Build configuration list for PBXNativeTarget "grampolaTests" */;
+			buildPhases = (
+				A220ED84268360E000512A27 /* Sources */,
+				A220ED85268360E000512A27 /* Frameworks */,
+				A220ED86268360E000512A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A220ED8A268360E000512A27 /* PBXTargetDependency */,
+			);
+			name = grampolaTests;
+			productName = grampolaTests;
+			productReference = A220ED88268360E000512A27 /* grampolaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A220ED92268360E000512A27 /* grampolaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A220EDA2268360E000512A27 /* Build configuration list for PBXNativeTarget "grampolaUITests" */;
+			buildPhases = (
+				A220ED8F268360E000512A27 /* Sources */,
+				A220ED90268360E000512A27 /* Frameworks */,
+				A220ED91268360E000512A27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A220ED95268360E000512A27 /* PBXTargetDependency */,
+			);
+			name = grampolaUITests;
+			productName = grampolaUITests;
+			productReference = A220ED93268360E000512A27 /* grampolaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A220ED6A268360DF00512A27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A220ED71268360DF00512A27 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					A220ED87268360E000512A27 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A220ED71268360DF00512A27;
+					};
+					A220ED92268360E000512A27 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = A220ED71268360DF00512A27;
+					};
+				};
+			};
+			buildConfigurationList = A220ED6D268360DF00512A27 /* Build configuration list for PBXProject "grampola" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A220ED69268360DF00512A27;
+			productRefGroup = A220ED73268360DF00512A27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A220ED71268360DF00512A27 /* grampola */,
+				A220ED87268360E000512A27 /* grampolaTests */,
+				A220ED92268360E000512A27 /* grampolaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A220ED70268360DF00512A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A220ED82268360E000512A27 /* LaunchScreen.storyboard in Resources */,
+				A220ED7F268360E000512A27 /* Assets.xcassets in Resources */,
+				A220ED7D268360DF00512A27 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220ED86268360E000512A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220ED91268360E000512A27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A220ED6E268360DF00512A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A220ED7A268360DF00512A27 /* ViewController.swift in Sources */,
+				A220ED76268360DF00512A27 /* AppDelegate.swift in Sources */,
+				A220ED78268360DF00512A27 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220ED84268360E000512A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A220ED8D268360E000512A27 /* grampolaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A220ED8F268360E000512A27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A220ED98268360E000512A27 /* grampolaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A220ED8A268360E000512A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A220ED71268360DF00512A27 /* grampola */;
+			targetProxy = A220ED89268360E000512A27 /* PBXContainerItemProxy */;
+		};
+		A220ED95268360E000512A27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A220ED71268360DF00512A27 /* grampola */;
+			targetProxy = A220ED94268360E000512A27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A220ED7B268360DF00512A27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A220ED7C268360DF00512A27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A220ED80268360E000512A27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A220ED81268360E000512A27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A220ED9A268360E000512A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A220ED9B268360E000512A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A220ED9D268360E000512A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8S9ZNLG2X;
+				INFOPLIST_FILE = grampola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.app.grampola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A220ED9E268360E000512A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8S9ZNLG2X;
+				INFOPLIST_FILE = grampola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.app.grampola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A220EDA0268360E000512A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = grampolaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.app.grampolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grampola.app/grampola";
+			};
+			name = Debug;
+		};
+		A220EDA1268360E000512A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = grampolaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.app.grampolaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/grampola.app/grampola";
+			};
+			name = Release;
+		};
+		A220EDA3268360E000512A27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = grampolaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.app.grampolaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = grampola;
+			};
+			name = Debug;
+		};
+		A220EDA4268360E000512A27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = grampolaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.app.grampolaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = grampola;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A220ED6D268360DF00512A27 /* Build configuration list for PBXProject "grampola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A220ED9A268360E000512A27 /* Debug */,
+				A220ED9B268360E000512A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A220ED9C268360E000512A27 /* Build configuration list for PBXNativeTarget "grampola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A220ED9D268360E000512A27 /* Debug */,
+				A220ED9E268360E000512A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A220ED9F268360E000512A27 /* Build configuration list for PBXNativeTarget "grampolaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A220EDA0268360E000512A27 /* Debug */,
+				A220EDA1268360E000512A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A220EDA2268360E000512A27 /* Build configuration list for PBXNativeTarget "grampolaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A220EDA3268360E000512A27 /* Debug */,
+				A220EDA4268360E000512A27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A220ED6A268360DF00512A27 /* Project object */;
+}
